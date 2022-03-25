@@ -1,0 +1,119 @@
+* {
+  background-color: beige;
+}
+.title {
+  display: inline;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(248, 211, 247, 1) 0%,
+    rgba(163, 219, 255, 1) 100%
+  );
+  font: italic small-caps bold 35px/2 cursive;
+}
+.photo {
+  margin-top: 100px;
+  display: block;
+  background: url(img/hello.png) left/cover;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.hphoto {
+  margin-top: 100px;
+  display: block;
+  background: url(img/youtube.png) left/cover;
+  width: 400px;
+  height: 400px;
+  border-radius: 20%;
+}
+
+.developers {
+  margin-top: 100px;
+  display: block;
+  background: url(img/developers.png) left/cover;
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.intro {
+  margin-top: 100px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 8%;
+  font-size: 30px;
+  font: italic;
+  /*font: italic small-caps bold 35px/2 cursive;*/
+}
+
+.acintro {
+  margin-top: 100px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 8%;
+  font-size: 15px;
+  font: italic;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#flext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+.profile {
+  background-color: rgb(247, 215, 220);
+  border: solid;
+  border-style: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 180px;
+  font-size: 19px;
+}
+.hobby {
+  background-color: rgb(230, 215, 247);
+  border: solid;
+  border-style: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 180px;
+  font-size: 19px;
+}
+.goal {
+  background-color: rgb(200, 201, 248);
+  border: solid;
+  border-style: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 180px;
+  font-size: 19px;
+}
+.title:hover {
+  transform: scale(1.1);
+}
+.profile:hover {
+  transform: scale(1.1);
+}
+.hobby:hover {
+  transform: scale(1.1);
+}
+.goal:hover {
+  transform: scale(1.1);
+}
